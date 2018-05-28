@@ -1,11 +1,12 @@
 {
   "name": "cone-test",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "cone-test",
   "license": "UNLICENSED",
   "author": "Charlie Chen <conechan@gmail.com>",
   "scripts": {
-    "commit": "commit"
+    "commit": "commit",
+    "semantic-release": "semantic-release"
   },
   "eslintConfig": {},
   "eslintIgnore": [],
@@ -26,5 +27,9 @@
     "hooks": {
       "commit-msg": "commitlint -e $GIT_PARAMS"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/conechan/cone-test.git"
   }
 }
