@@ -7,16 +7,15 @@
   "scripts": {
     "commit": "commit"
   },
-  "eslintConfig": {
-  },
-  "eslintIgnore": [
-  ],
+  "eslintConfig": {},
+  "eslintIgnore": [],
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^6.2.0",
     "@commitlint/config-conventional": "^6.1.3",
     "@commitlint/prompt-cli": "^6.1.3",
-    "husky": "^1.0.0-rc.8"
+    "husky": "^1.0.0-rc.8",
+    "semantic-release": "^15.5.0"
   },
   "commitlint": {
     "extends": [
